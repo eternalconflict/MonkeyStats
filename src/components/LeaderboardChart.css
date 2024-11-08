@@ -1,0 +1,28 @@
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1E1E; /* Dark background */
+    border-radius: 8px;
+}
+
+.chart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFF; /* White text for header */
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
+/* 
+#chartjs-tooltip {
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s ease;
+} */
